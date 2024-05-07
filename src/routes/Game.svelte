@@ -76,7 +76,6 @@
       />
     {/if}
   </div>
-
   <div class="grid">
     {#key grid}
       <Grid
@@ -96,7 +95,6 @@
       />
     {/key}
   </div>
-
   <div class="info">
     <Found {found} />
   </div>
