@@ -1,5 +1,5 @@
 <script lang="ts">
-  import Countdown from "./Countdown.svelte";
+  import CountDown from "./CountDown.svelte";
   import Grid from "./Grid.svelte";
   import Found from "./Found.svelte";
   import { shuffle } from "./utils.js";
@@ -66,7 +66,7 @@
 <div class="game" style="--size: {size}">
   <div class="info">
     {#if playing}
-      <Countdown
+      <CountDown
         {remaining}
         {duration}
         on:click={() => {
